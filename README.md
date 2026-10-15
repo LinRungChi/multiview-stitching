@@ -4,7 +4,7 @@
 
 Register several overlapping camera views into one frame, render a seamless mosaic, and merge per-view detections so that each object is counted once.
 
-This is a clean, standalone re-implementation of the multi-view pipeline I built for an 8-camera full-tank fish fry counting system ([ICASI 2025](https://doi.org/10.1049/icp.2025.2563)). The original code and data belong to the lab, so this version runs on a synthetic planar scene with known ground truth; swap in your own images and detector outputs.
+This is a clean, standalone re-implementation of the multi-view pipeline I built for an 8-camera full-tank fish fry counting system ([ICASI 2025](https://doi.org/10.1049/icp.2025.2563)). This version runs on a synthetic planar scene with known ground truth; swap in your own images and detector outputs.
 
 ![Stitching and de-duplication](docs/dedup.jpg)
 
